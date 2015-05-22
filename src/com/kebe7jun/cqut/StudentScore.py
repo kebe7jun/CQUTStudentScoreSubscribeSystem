@@ -19,9 +19,9 @@ class StudentScore:
                            'score':item[8]
                            }
             self.scoreList.append(scoreObject)
-    def conpile(self, newScore):
+    def compile(self, newScore):
         addedList = []
-        if(len(self) == len(newScore)):
+        if(len(self) >= len(newScore)):
             return addedList
         newList = newScore.getData()
         for i in range(len(self)):
@@ -33,11 +33,11 @@ class StudentScore:
     def __str__(self):
         for item in self.scoreList:
             print item
-    def __len__(self):
+    def __len__(self):      #返回长度
         return len(self.scoreList)
-    def getData(self):
+    def getData(self):      #返回数据
         return self.scoreList
-    def test(self):
-        del self.scoreList[0]
+    def test(self):     #测试时用的函数
+        del self.scoreList[3]
                 
                 
