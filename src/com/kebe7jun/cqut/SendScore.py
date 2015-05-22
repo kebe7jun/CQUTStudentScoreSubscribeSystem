@@ -1,8 +1,7 @@
 #coding=utf-8
 '''
-Created on 2015��5��22��
 
-@author: ���
+@author: KEBE
 '''
 import urllib2
 import urllib
