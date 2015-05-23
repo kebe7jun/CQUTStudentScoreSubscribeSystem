@@ -77,6 +77,6 @@ if __name__ == '__main__':
     if Tools.isEmail(sys.argv[3]):
         STUDENT_EMAIL = sys.argv[3]
     else:
-        STUDENT_EMAIL = sys.argv[3]
+        STUDENT_PHONE = sys.argv[3]
     SCORE_FILE_NAME = sys.path[0]+'/'+STUDENT_NO+"-score.html"  #设置存储路径
     main()
