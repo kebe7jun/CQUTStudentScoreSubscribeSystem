@@ -34,7 +34,7 @@ class LoginCQUTCookie:
         rep = opener.open(self.loginUrl,postdata)    #模拟登陆
         return saveCookie
 
-cookie = LoginCQUTCookie('11303070104','kebe0412').login()
+cookie = LoginCQUTCookie('11303070104','52511515').login()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
 
 rep = opener.open('http://i.cqut.edu.cn/zfca?yhlx=student&login=122579031373493679&url=stuPage.jsp')    #进入学工系统
