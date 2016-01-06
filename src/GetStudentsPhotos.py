@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #coding=gbk
 
 import re
